@@ -44,17 +44,29 @@ img {
   float: left;
 }
 .my-class {
-  margins: 12px;
   border: 2px solid green;
-  padding: 4px;
+  padding: 10px;
   background-color: orange;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  box-sizing: border-box;
 }
+
+.centered-image {
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
 .box1 {
   width: 50%;
   border: solid black;
   border-width: 1px;
   background-color: orange;
   margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
 .box2 {
@@ -64,6 +76,7 @@ img {
   border-width: 20px;
   background-color: orange;
   margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
 .box3 {
@@ -73,4 +86,5 @@ img {
   border-width: 30px;
   background-color: orange;
   margin-bottom: 10px;
+  box-sizing: border-box;
 }
