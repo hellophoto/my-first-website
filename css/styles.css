@@ -1,18 +1,48 @@
 h1 {
-  color: #00f;
-  text-align: center;
+  color: darkred;
 }
 
 h2 {
   font-style: italic;
-  text-align: center;
+  color: red;
 }
 
 p {
+  color: crimson;
+}
+p.intro {
+  width: 50%;
+  font-style: italic;
+}
+p.author {
+  width: 75%;
+  font-style: italic;
+  font-weight: bold;
+}
+body {
+  background-color: salmon;
   font-family: sans-serif;
+  text-align: center;
+}
+.important {
+  color: red;
 }
 
-ul {
-  font-size: 20px;
-  line-height: 30px;
+.unimportant {
+  color: blue;
+}
+img {
+  float: left;
+}
+.sidebar {
+  width: 30%;
+  float: right;
+  background-color: yellow;
+}
+.column {
+  width: 300px;
+  float: left;
+}
+.my-class {
+  border: 2px solid green;
 }
