@@ -44,5 +44,8 @@ img {
   float: left;
 }
 .my-class {
+  margins: 12px;
   border: 2px solid green;
+  padding: 4px;
+  background-color: orange;
 }
