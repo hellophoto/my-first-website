@@ -10,7 +10,12 @@ h2 {
 font-style: italic;
   color: red;
 }
-
+.intro {
+  color: red;
+}
+#line2 {
+  color: red;
+}
 p {
   color: crimson;
 }
